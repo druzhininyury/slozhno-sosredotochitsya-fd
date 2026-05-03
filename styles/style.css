@@ -52,6 +52,25 @@
 
 .header__menu-list {
     display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__theme-menu-button {
+    inline-size: 70px;
+    padding-block-end: 5px; /* Hack for centering lowercase text. */
+    font-family: 'IBM Plex mono', 'sans-serif';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    color: var(--menu-element-color);
+    text-transform: lowercase;
+    background: none;
+    border: 1px solid transparent;
+}
+
+.header__theme-menu-button_active {
+    border-color: var(--menu-element-color);
 }
 
 .title {

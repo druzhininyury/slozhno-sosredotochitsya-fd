@@ -19,6 +19,9 @@
     /* Титульные подстраницы */
     --title-screen-min-block-size: 768px;
 
+    /* Настройки элементов меню */
+    --menu-element-color: var(--primary-theme-color);
+
     /* Настройки эпиграфа */
     --header__epigraph-inline-size: 50%;
 
