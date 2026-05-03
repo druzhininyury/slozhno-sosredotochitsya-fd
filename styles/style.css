@@ -69,6 +69,15 @@
     border: 1px solid transparent;
 }
 
+.header__theme-menu-button:hover {
+    border-color: var(--menu-element-color-hover);
+}
+
+.header__theme-menu-button:focus-visible {
+    outline: none;
+    border-block-end-color: var(--menu-element-color);
+}
+
 .header__theme-menu-button_active {
     border-color: var(--menu-element-color);
 }

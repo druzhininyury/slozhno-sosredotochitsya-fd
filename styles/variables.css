@@ -5,6 +5,7 @@
 :root {
     /* Палитра */
     --primary-theme-color: #FF0070;
+    --primary-theme-color-rgb: 255 0 112;
     --title-theme-color: #DB00FF;
     --common-text-color: #F1B2CE;
     --secondary-theme-color: #000028;
@@ -21,6 +22,7 @@
 
     /* Настройки элементов меню */
     --menu-element-color: var(--primary-theme-color);
+    --menu-element-color-hover: rgb(var(--primary-theme-color-rgb) / 0.4);
 
     /* Настройки эпиграфа */
     --header__epigraph-inline-size: 50%;
