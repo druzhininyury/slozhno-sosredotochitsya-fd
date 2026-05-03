@@ -18,4 +18,10 @@
 
     /* Титульные подстраницы */
     --title-screen-min-block-size: 768px;
+
+    /* Настройки эпиграфа */
+    --header__epigraph-inline-size: 50%;
+
+    /* Настройки заголовков статей */
+    --article-font-color: var(--secondary-theme-color);
 }
