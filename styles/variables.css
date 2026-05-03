@@ -2,3 +2,20 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+    /* Палитра */
+    --primary-theme-color: #FF0070;
+    --title-theme-color: #DB00FF;
+    --common-text-color: #F1B2CE;
+    --secondary-theme-color: #000028;
+
+    /* Задник */
+    --background-image: url(../images/cover-image-dark.png);
+    --background-color: var(--secondary-theme-color);
+
+    /* Общие настройки страницы */
+    --common-padding: 20px;
+
+    /* Титульные подстраницы */
+    --title-screen-min-block-size: 768px;
+}
