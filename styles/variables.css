@@ -16,6 +16,7 @@
 
     /* Общие настройки страницы */
     --common-padding: 20px;
+    --common-gap: 60px;
 
     /* Титульные подстраницы */
     --title-screen-min-block-size: 768px;
@@ -29,4 +30,18 @@
 
     /* Настройки заголовков статей */
     --article-font-color: var(--secondary-theme-color);
+
+    /* Настройки main части */
+    --main-gap: 80px;
+
+    /* Настройки разделов основной части */
+    --main__section-grid-template-columns: 1fr 1fr 1fr;
+    --section__block-wide-size: span 2;
+    --section__block-tall-size: span 2;
+
+    /* Настройки инвертированных заголовков */
+    --article-title-inverted-color: var(--primary-theme-color);
+
+    /* Настройки статей */
+    --article-main-color: var(--common-text-color);
 }
