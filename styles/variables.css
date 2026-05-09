@@ -36,8 +36,17 @@
 
     /* Настройки разделов основной части */
     --main__section-grid-template-columns: 1fr 1fr 1fr;
-    --section__block-wide-size: span 2;
-    --section__block-tall-size: span 2;
+
+    --section__question-side-grid-column: span 1;
+    --section__question-side-grid-template-columns: subgrid;
+    --section__article-side-grid-column: span 2;
+    --section__article-side-grid-template-columns: none;
+
+    --section__question-top-grid-column: span 3;
+    --section__question-top-grid-template-columns: subgrid;
+    --section__article-top-grid-column: span 3;
+    --section__article-top-grid-template-columns: subgrid;
+
 
     /* Настройки инвертированных заголовков */
     --article-title-inverted-color: var(--primary-theme-color);

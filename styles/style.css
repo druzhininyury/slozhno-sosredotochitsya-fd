@@ -127,12 +127,28 @@
     gap: 20px;
 }
 
-.article-configuration-wide {
-    grid-column: var(--section__block-wide-size);
+.section__question-side {
+    grid-column: var(--section__question-side-grid-column);
+    display: grid;
+    grid-template-columns: var(--section__question-side-grid-template-columns);
 }
 
-.article-configuration-tall {
-    grid-row: var(--section__block-tall-size);
+.section__article-side {
+    grid-column: var(--section__article-side-grid-column);
+    display: grid;
+    grid-template-columns: var(--section__article-side-grid-template-columns);
+}
+
+.section__question-top {
+    grid-column: var(--section__question-top-grid-column);
+    display: grid;
+    grid-template-columns: var(--section__question-top-grid-template-columns);
+}
+
+.section__article-top {
+    grid-column: var(--section__article-top-grid-column);
+    display: grid;
+    grid-template-columns: var(--section__question-top-grid-template-columns);
 }
 
 .article-title-inverted {
