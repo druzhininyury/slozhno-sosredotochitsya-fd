@@ -127,6 +127,10 @@
     gap: 20px;
 }
 
+.section__article {
+    gap: 20px;
+}
+
 .section__question-side {
     grid-column: var(--section__question-side-grid-column);
     display: grid;
@@ -164,6 +168,7 @@
 }
 
 .article-main {
+    margin-top: 10px;
     font-family: 'IBM Plex mono', 'sans-serif';
     font-weight: 400;
     font-size: 18px;
