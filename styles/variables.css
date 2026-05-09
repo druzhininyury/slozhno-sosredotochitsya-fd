@@ -47,6 +47,10 @@
     --section__article-top-grid-column: span 3;
     --section__article-top-grid-template-columns: subgrid;
 
+    /* Настройки галереи */
+    --section__gallery-grid-column: span 3;
+    --gallery__image-wide-grid-column: span 2;
+    --gallery__image-tall-grid-column: span 2;
 
     /* Настройки инвертированных заголовков */
     --article-title-inverted-color: var(--primary-theme-color);
