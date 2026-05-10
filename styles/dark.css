@@ -16,6 +16,7 @@
     --secondary-theme-color: #000028;
 
     --background-image: url(../images/cover-image-dark.png);
+    --background-color: var(--secondary-theme-color);
 
     --rec-decoration-display: flex;
 
