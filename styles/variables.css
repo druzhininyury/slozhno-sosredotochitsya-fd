@@ -21,6 +21,9 @@
     /* Титульные подстраницы */
     --title-screen-min-block-size: 768px;
 
+    /* Декоративный элемент REC */
+    --rec-decoration-display: flex;
+
     /* Настройки элементов меню */
     --header__menu-align-self: none;
     --header__menu-list-flex-direction: row;

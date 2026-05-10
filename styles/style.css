@@ -45,6 +45,29 @@
     border-inline-start: 1px solid var(--primary-theme-color);
 }
 
+.rec-decoration {
+    display: var(--rec-decoration-display);
+    align-items: center;
+    gap: 10px;
+    block-size: 25px;
+    position: absolute;
+    right: 0;
+    top: var(--common-padding);
+    font-family: 'IBM Plex mono', 'sans-serif';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--primary-theme-color);
+}
+
+.circle {
+    margin-inline-end: 9px;
+    block-size: 9px;
+    inline-size: 9px;
+    background-color: var(--primary-theme-color);
+    box-shadow: 0 0 4px 2px var(--primary-theme-color);
+    border-radius: 50%;
+}
+
 .header {
     position: relative;
     padding-block-start: var(--common-padding);

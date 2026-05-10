@@ -18,6 +18,8 @@
 
     --background-image: url(../images/cover-image-light.png);
 
+    --rec-decoration-display: none;
+
     --menu-element-color: var(--common-text-color);
     --menu-element-color-hover: rgb(var(--common-text-color-rgb) / 0.4);
 
@@ -34,6 +36,8 @@
         --secondary-theme-color: #353430;
 
         --background-image: url(../images/cover-image-light.png);
+
+        --rec-decoration-display: none;
 
         --menu-element-color: var(--common-text-color);
         --menu-element-color-hover: rgb(var(--common-text-color-rgb) / 0.4);

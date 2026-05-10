@@ -17,6 +17,8 @@
 
     --background-image: url(../images/cover-image-dark.png);
 
+    --rec-decoration-display: flex;
+
     --menu-element-color: var(--primary-theme-color);
     --menu-element-color-hover: rgb(var(--primary-theme-color-rgb) / 0.4);
 
