@@ -22,8 +22,17 @@
     --title-screen-min-block-size: 768px;
 
     /* Настройки элементов меню */
+    --header__menu-align-self: none;
+    --header__menu-list-flex-direction: row;
+    --header__menu-list-align-items: center;
+
     --menu-element-color: var(--primary-theme-color);
     --menu-element-color-hover: rgb(var(--primary-theme-color-rgb) / 0.4);
+
+    /* Настройки главного заголовка */
+    --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --header__title-position: relative;
+    --header__title-left: calc(var(--common-padding) * -1);
 
     /* Настройки эпиграфа */
     --header__epigraph-inline-size: 50%;
