@@ -9,4 +9,35 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+    --primary-theme-color: #FF8DCB;
+    --title-theme-color: #FFC2E6;
+    --common-text-color: #353430;
+    --common-text-color-rgb: 53 52 48;
+
+    --secondary-theme-color: #353430;
+
+    --background-image: url(../images/cover-image-light.png);
+
+    --menu-element-color: var(--common-text-color);
+    --menu-element-color-hover: rgb(var(--common-text-color-rgb) / 0.4);
+
+    --article-title-inverted-color: var(--common-text-color);
+}
+
+@media (prefers-color-scheme: light) {
+    :root{
+        --primary-theme-color: #FF8DCB;
+        --title-theme-color: #FFC2E6;
+        --common-text-color: #353430;
+        --common-text-color-rgb: 53 52 48;
+
+        --secondary-theme-color: #353430;
+
+        --background-image: url(../images/cover-image-light.png);
+
+        --menu-element-color: var(--common-text-color);
+        --menu-element-color-hover: rgb(var(--common-text-color-rgb) / 0.4);
+
+        --article-title-inverted-color: var(--common-text-color);
+    }
 }

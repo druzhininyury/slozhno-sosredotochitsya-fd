@@ -89,6 +89,7 @@
 
 .header__theme-menu-button_active {
     border-color: var(--menu-element-color);
+    pointer-events: none;
 }
 
 .title {
