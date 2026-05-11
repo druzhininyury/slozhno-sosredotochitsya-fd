@@ -23,6 +23,7 @@
 
     /* Декоративный элемент REC */
     --rec-decoration-display: flex;
+    --angle-derocration-color: var(--primary-theme-color);
 
     /* Настройки элементов меню */
     --header__menu-align-self: none;

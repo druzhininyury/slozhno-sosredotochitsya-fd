@@ -19,6 +19,7 @@
     --background-color: var(--secondary-theme-color);
 
     --rec-decoration-display: flex;
+    --angle-derocration-color: var(--primary-theme-color);
 
     --menu-element-color: var(--primary-theme-color);
     --menu-element-color-hover: rgb(var(--primary-theme-color-rgb) / 0.4);
