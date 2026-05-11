@@ -56,7 +56,7 @@
     position: absolute;
     right: var(--common-padding);
     top: var(--common-padding);
-    font-family: 'IBM Plex mono', 'sans-serif';
+    font-family: 'IBM Plex mono', 'monospace';
     font-weight: 400;
     font-size: 18px;
     color: var(--primary-theme-color);
