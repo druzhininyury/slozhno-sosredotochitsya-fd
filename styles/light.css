@@ -34,10 +34,12 @@
         --title-theme-color: #FFC2E6;
         --common-text-color: #353430;
         --common-text-color-rgb: 53 52 48;
-
         --secondary-theme-color: #353430;
+        --additional-theme-color: #FFF1F7;
+
 
         --background-image: url(../images/cover-image-light.png);
+        --background-color: var(--additional-theme-color);
 
         --rec-decoration-display: none;
 
