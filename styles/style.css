@@ -250,7 +250,7 @@
     align-items: center;
 }
 
-@media(375 < width <= 768px) {
+@media(768px <= width < 1024px) {
     :root {
         --title-screen-min-block-size: 1024px;
 
@@ -263,7 +263,7 @@
     }
 }
 
-@media(width <= 375px) {
+@media(width < 768px) {
     :root {
         --common-padding: 10px;
         --common-gap: 40px;
