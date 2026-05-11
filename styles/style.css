@@ -62,7 +62,8 @@
     color: var(--primary-theme-color);
 }
 
-.circle {
+.rec-decoration::after {
+    content: '';
     margin-inline-end: 9px;
     block-size: 9px;
     inline-size: 9px;
