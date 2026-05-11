@@ -50,14 +50,4 @@
 
         --article-title-inverted-color: var(--common-text-color);
     }
-
-    .angle-decoration::before {
-        border-block-start-color: var(--secondary-theme-color);
-        border-inline-end-color: var(--secondary-theme-color);
-    }
-
-    .angle-decoration::after {
-        border-block-end-color: var(--secondary-theme-color);
-        border-inline-start-color: var(--secondary-theme-color);
-    }
 }
