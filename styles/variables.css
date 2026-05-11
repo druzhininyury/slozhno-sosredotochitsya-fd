@@ -70,3 +70,47 @@
     /* Настройки статей */
     --article-main-color: var(--common-text-color);
 }
+
+@media(768px <= width < 1024px) {
+    :root {
+        --title-screen-min-block-size: 1024px;
+
+        --header__menu-align-self: center;
+        --header__menu-list-flex-direction: column;
+        --header__menu-list-align-items: end;
+
+        --section__article-top-grid-column: span 3;
+        --section__article-top-grid-template-columns: 1fr;
+    }
+}
+
+@media(width < 768px) {
+    :root {
+        --common-padding: 10px;
+        --common-gap: 40px;
+
+        --title-screen-min-block-size: 668px;
+
+        --header__menu-align-self: center;
+        --header__menu-list-flex-direction: column;
+        --header__menu-list-align-items: end;
+
+        --header__epigraph-inline-size: none;
+
+        --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+        --header__title-position: none;
+
+        --main-gap: 50px;
+
+        --main__section-grid-template-columns: 1fr;
+        --section__article-side-grid-column: span 1;
+        --section__question-top-grid-column: span 1;
+        --section__question-top-grid-template-columns: 1fr;
+        --section__article-top-grid-column: span 1;
+        --section__article-top-grid-template-columns: auto;
+
+        --section__gallery-grid-column: auto;
+        --gallery__image-wide-grid-column: auto;
+        --gallery__image-tall-grid-column: auto;
+    }
+}
